@@ -6,7 +6,11 @@ from fastai.vision import *
 import tensorflow as tf
 from PIL import Image
 from tensorflow import keras
+<<<<<<< HEAD
 from tensorflow.keras.applications.densenet import DensNet121, preprocess_input
+=======
+from tensorflow.keras.applications.densenet import DenseNet121, preprocess_input
+>>>>>>> 5129950631dbc56cc8ce2051a832cc62221c429d
 import numpy as np
 #from tensorflow.keras.utils.data_utils import get_file
 from io import BytesIO
